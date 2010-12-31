@@ -1,0 +1,10 @@
+--- fs/namespace.c	2010-09-27 19:33:07.000000000 +0100
++++ fs/namespace.c	2010-09-27 19:34:18.000000000 +0100
+@@ -39,6 +39,7 @@
+ 
+ /* spinlock for vfsmount related operations, inplace of dcache_lock */
+ __cacheline_aligned_in_smp DEFINE_SPINLOCK(vfsmount_lock);
++EXPORT_SYMBOL(vfsmount_lock);
+ 
+ static int event;
+ static DEFINE_IDA(mnt_id_ida);

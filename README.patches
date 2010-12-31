@@ -1,0 +1,13 @@
+2.6.32-sqlzma40.patch
+2.6.32-aufs2.patch
+2.6.32-reiser4.patch
+2.6.32-loopaes.patch
+2.6.32-hpsa.patch
+2.6.32-sw.patch
+2.6.32-tg3.patch
+2.6.32-autoload.patch
+2.6.32-bnx2.patch
+2.6.32-ich9.patch
+2.6.32-trim.patch
+2.6.32-drbd.patch
+2.6.32-20100702.patch
