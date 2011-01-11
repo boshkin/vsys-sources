@@ -1,3 +1,51 @@
+## VirtualSystems is new type of
+provision a new type of delivery mechanisms for
+storing and managing head of the system.
+      VSYS0
+        |
+         \
+          SquashFS - system.dat
+        |    |
+        |    AuFS2 - scalable storage or memory in system.dat - system partition
+        |
+         \
+        | NGINX
+       ()    |
+       /\   /
+      /  OpenVZ
+   VBox     \
+     |       Any Linux Distributive from venet or veth network interfaces and
+    /|\      squashfs templates and storage modified datas.
+   / | \
+   | |  Linux,FreeBSD
+   |  MacOSX
+   win2003
+This operational system for home router or claster ceph machine or
+multipule linux virtual machines, or hardware virtual linux, freeBSD, windows, solaris
+in VirtualBox virtualization.
+So you can have absolute virtualized software, you may install VMWare software and used it.
+
+
+This sources is Linux kernel 2.6.32 and more patches:
+1.openvz 			http://git.openvz.org/?p=linux-2.6.32-openvz;a=summary
+2.sqlzma4			http://squashfs.sourceforge.net/
+3.aufs2				http://aufs.sourceforge.net/README.aufs2
+4.ceph				http://ceph.newdream.net/git/?p=ceph-client-standalone.git;a=summary
+5.btrfs				http://git.kernel.org/?p=linux/kernel/git/mason/btrfs-unstable.git;a=summary
+6.reiser4			http://git.kernel.org/?p=linux/kernel/git/edward/reiser4.git;a=summary
+7.ext4				http://git.kernel.org/?p=linux/kernel/git/tytso/ext4.git;a=summary
+8.loopaes			http://loop-aes.sourceforge.net/
+9.cciss-hpsa			http://www.spinics.net/lists/linux-scsi/msg47373.html
+10.lsi-sw
+11.update-tg3
+12.update-bnx2
+13.update-e1000e-ich9
+14.drbd				http://www.drbd.org/
+15.mppc				http://yablochkin.net.ru/mppc/
+
+
+
+## standart linux readme
 	Linux kernel release 2.6.xx <http://kernel.org/>
 
 These are the release notes for Linux version 2.6.  Read them carefully,

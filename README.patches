@@ -11,3 +11,4 @@
 2.6.32-trim.patch
 2.6.32-drbd.patch
 2.6.32-20100702.patch
+2.6.32-mppe-mppc.patch
